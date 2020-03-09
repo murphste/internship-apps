@@ -6,6 +6,10 @@ This is a repo for some of the study and projects I worked on during my internsh
 Using:
       Spring Boot (Maven, Spring Web, Spring DevTools, Thymeleaf UI)
       
+# Overview:
+This app provides information about the global reported cases of COVID19. It updates daily, and breaks down number of reported cases by region/country and shows the difference in each to the number of cases reported the previous day.
+
+      
 # To run this app:
       Clone the repo to your local machine
       Import the project (Maven existing projects)
