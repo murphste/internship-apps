@@ -30,7 +30,7 @@ This application reports the number of confirmed cases of COVID19 globally, show
       
 ---------------------------
 # 2. 
-# -- Basic REST API example, CRUD functionality
+# -- Basic REST API example, standard GET, POST, PUT, DELETE functionality
 Using:
       Spring Boot
       
