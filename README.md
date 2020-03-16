@@ -61,7 +61,10 @@ This is a great example / template of a basic REST API using Spring boot, set up
 # -- Basic REST API expanded with basic, EMBEDDED Apache DerbyDB connection
 Using:
       Spring Boot
-      
+
+# Important Note:
+When run, the app may show errors (in blue) in the console - related to JPA/JDBC/Hibernate. From researching StackOverflow it was commented that these errors are a known bug with Spring Boot 2+. The application still works as it should so you can ignore these.
+ 
 # App Overview:
 This builds on the previous "course-api" example, by instead of using data from a hardcoded list, we add an embedded database (Apache DerbyDB) to the project classpath. This is done by including it from the initialiser at the beginning of the project, and as can be seen by the dependancy added to the pom.xml. This is the simplest way of working with a database connection with Spring. By using model class annotations & a Spring standard "CrudRepository" interface, the app can persist data to the database and perform CRUD operations on it. 
       
