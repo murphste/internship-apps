@@ -83,6 +83,7 @@ This builds on the previous "course-api" example, by instead of using data from 
 # Key learnings / functionality
       Introduction to Spring Boot
       Including an embedded database (Apache Derby) on the class path
+      ORM
       Spring Annotations - @Entity, @Id, @Autowire etc.
       Spring "CrudRepository" interface & associated CRUD methods (very important)
       REST API template
