@@ -54,3 +54,32 @@ This is a great example / template of a basic REST API using Spring boot, set up
       Spring Annotations and use of Autowiring
       Basic MVC with Spring - use of HomeController & model classes
       REST API template
+      
+
+---------------------------
+# 3. 
+# -- Basic REST API expanded with basic, EMBEDDED Apache DerbyDB connection
+Using:
+      Spring Boot
+      
+# App Overview:
+This builds on the previous "course-api" example, by instead of using data from a hardcoded list, we add an embedded database (Apache DerbyDB) to the project classpath. This is done by including it from the initialiser at the beginning of the project, and as can be seen by the dependancy added to the pom.xml. This is the simplest way of working with a database connection with Spring. By using model class annotations & a Sspring standard "CrudRepository" interface, the app can persist data to the database and perform CRUD operations on it. 
+      
+# To run this app:
+      Clone the repo to your local machine
+      Import the project (Maven existing projects)
+      Ensure Port 8080 is not in use
+          ... if it is in use - Run CMD (Windows) "Run as Administrator"
+                              - Issue netstat -aon command
+                              - Identify PID (Process ID using the port)
+                              - Issue taskkill /PID *pid number*
+      Now run the program in Eclipse IDE
+      Open Postman and type in URL endpoints (dont foregt to set header to "application/json")
+      Try out the various HTTP methods to test, and observe the responses
+
+# Key learnings / functionality
+      Introduction to Spring Boot
+      Including an embedded database (Apache Derby) on the class path
+      Spring Annotations - @Entity, @Id, @Autowire etc.
+      Spring "CrudRepository" interface & associated CRUD methods (very important)
+      REST API template
