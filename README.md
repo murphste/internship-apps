@@ -16,7 +16,7 @@ This application reports the number of confirmed cases of COVID19 globally, show
           ... if it is in use - Run CMD (Windows) "Run as Administrator"
                               - Issue netstat -aon command
                               - Identify PID (Process ID using the port)
-                              - Issue taskkill /PID *pid number*
+                              - Issue taskkill /PID *pid number* /F
       Now run the program in Eclipse IDE
       Open a web browser and visit localhost:8080
 
@@ -44,7 +44,7 @@ This is a great example / template of a basic REST API using Spring boot, set up
           ... if it is in use - Run CMD (Windows) "Run as Administrator"
                               - Issue netstat -aon command
                               - Identify PID (Process ID using the port)
-                              - Issue taskkill /PID *pid number*
+                              - Issue taskkill /PID *pid number* /F
       Now run the program in Eclipse IDE
       Open Postman and type in URL endpoints (dont foregt to set header to "application/json")
       Try out the various HTTP methods to test, and observe the responses
@@ -75,7 +75,7 @@ This builds on the previous "course-api" example, by instead of using data from 
           ... if it is in use - Run CMD (Windows) "Run as Administrator"
                               - Issue netstat -aon command
                               - Identify PID (Process ID using the port)
-                              - Issue taskkill /PID *pid number*
+                              - Issue taskkill /PID *pid number* /F
       Now run the program in Eclipse IDE
       Open Postman and type in URL endpoints (dont foregt to set header to "application/json")
       Try out the various HTTP methods to test, and observe the responses
