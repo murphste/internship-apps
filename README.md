@@ -30,12 +30,12 @@ This application reports the number of confirmed cases of COVID19 globally, show
       
 ---------------------------
 # 2. 
-# -- Basic REST API example, CRUD functionality
+# -- Basic REST API example, standard GET, POST, PUT, DELETE functionality
 Using:
       Spring Boot
       
 # App Overview:
-This is a great example / template of a basic REST API using Spring boot, set up to provide the basic CRUD operations on a hardcoded list of "topics", but can of course be adapted for anything. This is a "starting point" API, as it has no database connection or data source, only using a hardcoded list. DB connected version to follow.
+This is a great example / template of a basic REST API using Spring boot, set up to provide the basic HTTP operations on a hardcoded list of "topics", but can of course be adapted for anything. This is a "starting point" API, as it has no database connection or data source, only using a hardcoded list. DB connected version, with full CRUD functionality, to follow.
       
 # To run this app:
       Clone the repo to your local machine
