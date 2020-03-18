@@ -43,7 +43,7 @@ public class LessonService {
 	}
 	
 	
-	public void updateLesson(Lesson lesson) {
+	public void updateLesson(String id, Lesson lesson) {
 		/*
 		 * With this one - we can simply pass in the lesson object.
 		 * Since our object will have an id set on it, Spring knows enough
