@@ -7,7 +7,7 @@ import org.springframework.data.repository.CrudRepository;
 public interface LessonRepository extends CrudRepository<Lesson, String> {
 	
 	/* 
-	 * DATA SERVICE CLASS
+	 * DATA SERVICE CLASS:
 	 */
 	
 	/* getAllTopics()
