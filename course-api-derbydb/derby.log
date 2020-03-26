@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Wed Mar 18 16:58:30 GMT 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0170-ee95-098c-000005024080 
-on database directory memory:C:\Users\Stephen's Laptop\Documents\workspace-spring-tool-suite-4-4.5.1.RELEASE\course-api-derbydb\testdb with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
-Loaded from file:/C:/Users/Stephen's%20Laptop/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+Thu Mar 19 13:51:15 GMT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0170-f30f-f60c-00000cc1db10 
+on database directory memory:C:\Users\Stephen's Laptop\Documents\My Apps\internship-apps\course-api-derbydb\testdb with class loader org.springframework.boot.loader.LaunchedURLClassLoader@2e5d6d97 
+Loaded from jar:file:/C:/Users/Stephen's%20Laptop/Documents/My%20Apps/internship-apps/course-api-derbydb/target/course-api-derbydb-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/derby-10.14.2.0.jar!/
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_241-b07
-user.dir=C:\Users\Stephen's Laptop\Documents\workspace-spring-tool-suite-4-4.5.1.RELEASE\course-api-derbydb
+user.dir=C:\Users\Stephen's Laptop\Documents\My Apps\internship-apps\course-api-derbydb
 os.name=Windows 10
 os.arch=amd64
 os.version=10.0
