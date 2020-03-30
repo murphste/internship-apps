@@ -23,7 +23,7 @@ import com.myapps.coronavirustracker.models.LocationStats;
 public class CoronavirusDataService {
 	
 	
-	private String VIRUS_DATA_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv";
+	private String VIRUS_DATA_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv";
 	
 	// List to store all latest virus data (objects are instances of LocationStats model class)
 	private List<LocationStats> allStats = new ArrayList<>();
