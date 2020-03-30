@@ -87,3 +87,24 @@ This builds on the previous "course-api" example, by instead of using data from 
       Spring Annotations - @Entity, @Id, @Autowire etc.
       Spring "CrudRepository" interface & associated CRUD methods (very important)
       REST API template
+      
+      ---------------------------
+# 4. 
+# -- JUnit 5 Basics
+Using:
+      JUnit5 (Jupiter), Spring Boot
+      
+# App Overview:
+This is a simple example of JUnit5 integration with Spring Boot to test a simple utility class (MathUtils.java) to show some of the JUnit testing annotations and how to structure the order of tests in the actual testing class.
+      
+# To run this app:
+      Clone the repo to your local machine
+      Import the project (Maven existing projects)
+      Now run the program in Eclipse IDE - "Run As : JUnit test"
+      Observe the test results in the JUnit panel & observe code comments      
+
+# Key learnings / functionality
+      Introduction to JUnit5
+      Integrating JUnit5 with Spring project (via pom.xml dependencies)
+      Basic JUnit5 testing annotations
+      Introduction to TDD (Test Driven Development)
