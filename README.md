@@ -108,3 +108,24 @@ This is a simple example of JUnit5 integration with Spring Boot to test a simple
       Integrating JUnit5 with Spring project (via pom.xml dependencies)
       Basic JUnit5 testing annotations
       Introduction to TDD (Test Driven Development)
+
+---------------------------
+# 5. 
+# -- JUnitMockito https://www.udemy.com/course/mockito-tutorial-with-junit-examples/
+Using:
+      JUnit4
+      
+# App Overview:
+This is a simple example of JUnit4 integrated with Eclipse to run through some of the most commonly used features and testing annotations in JUnit4. JUnit4 is still widely used in industry (as of April 2020), so useful to have a resource/starting point here. 
+      
+# To run this app:
+      Clone the repo to your local machine
+      Import the project (Maven existing projects)
+      Now run the program in Eclipse IDE - "Run As : JUnit test"
+      Observe the test results in the JUnit panel & observe code comments      
+
+# Key learnings / functionality
+      Introduction to JUnit4
+      Integrating JUnit4 with Spring project (via pom.xml dependencies)
+      Basic JUnit4 testing annotations
+      Pre-cursor to Mockito introduction
