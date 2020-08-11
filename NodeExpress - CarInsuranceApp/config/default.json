@@ -1,0 +1,22 @@
+{
+    "connection":{
+        "user" : "webUser",
+        "password": "ca2password@12345",
+        "server" : "myserver-sswd.database.windows.net",
+        "database" : "CarInsuranceCA2",
+        "parseJSON": true,
+        "options":
+        {
+            "encrypt" : true
+        },
+        "pool":
+        {
+        "min": 2,
+        "max": 4,
+        "idleTimeoutMillis": 30000
+        }
+    },
+    "keys": {
+            "secret": "This is my secret key!"
+    }
+}
